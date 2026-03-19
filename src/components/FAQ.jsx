@@ -38,7 +38,7 @@ export default function FAQ() {
   const toggle = (i) => setOpenIndex(openIndex === i ? null : i)
 
   return (
-    <section id="duvidas" className="py-32 md:py-40 px-6 md:px-10 bg-surface-light">
+    <section id="duvidas" className="py-32 md:py-40 px-6 md:px-16 lg:px-20 bg-surface-light">
       <div className="max-w-3xl mx-auto">
         {/* Header */}
         <motion.div
@@ -54,7 +54,7 @@ export default function FAQ() {
             Dúvidas frequentes
             <span className="w-6 h-[1px] bg-roxo-suave" />
           </div>
-          <h2 className="font-display text-[clamp(2rem,3vw,2.6rem)] font-light text-dark-warm tracking-[-0.02em] mb-4">
+          <h2 className="font-display text-[clamp(2rem,3vw,2.6rem)] font-medium text-dark-warm tracking-[-0.02em] mb-4">
             Perguntas que você
             <br />
             pode estar se fazendo
@@ -101,7 +101,7 @@ export default function FAQ() {
                     transition={{ duration: 0.3 }}
                     className="overflow-hidden"
                   >
-                    <p className="font-body text-[0.9rem] font-light text-text-secondary leading-[1.85] pb-7 pl-12">
+                    <p className="font-body text-[0.9rem] font-light text-text-secondary leading-[1.85] pb-7 pl-12 max-w-[65ch]">
                       {faq.a}
                     </p>
                   </motion.div>

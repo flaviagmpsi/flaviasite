@@ -6,7 +6,7 @@ const fadeUp = {
 }
 
 const contactItems = [
-  { label: 'WhatsApp', value: '(31) 9 XXXX-XXXX', href: 'https://wa.me/5531900000000' },
+  { label: 'WhatsApp', value: '+55 31 9263-1718', href: 'https://wa.me/5531926317180' },
   { label: 'E-mail', value: 'contato@flaviagonçalves.com.br', href: 'mailto:contato@flaviagoncalves.com.br' },
   { label: 'Consultório', value: 'Belo Horizonte, MG', href: null },
   { label: 'Atendimento', value: 'Presencial & Online', href: null },
@@ -16,7 +16,7 @@ export default function Contact() {
   return (
     <section
       id="contato"
-      className="bg-dark-warm py-32 md:py-40 pb-40 md:pb-48 px-6 md:px-10 relative overflow-hidden"
+      className="bg-dark-warm py-32 md:py-40 pb-40 md:pb-48 px-6 md:px-16 lg:px-20 relative overflow-hidden"
     >
       {/* Decorative circles */}
       <div
@@ -28,7 +28,7 @@ export default function Contact() {
         style={{ background: 'radial-gradient(circle, rgba(170,116,160,0.06) 0%, transparent 70%)' }}
       />
 
-      <div className="max-w-3xl mx-auto text-center relative z-[1]">
+      <div className="max-w-4xl mx-auto text-center relative z-[1]">
         {/* Title */}
         <motion.div
           initial="hidden"
@@ -43,7 +43,7 @@ export default function Contact() {
             Contato
             <span className="w-6 h-[1px] bg-[rgba(226,201,158,0.25)]" />
           </div>
-          <h2 className="font-display text-[clamp(2.2rem,3.5vw,3.2rem)] font-light text-bege leading-[1.15] tracking-[-0.02em] mb-5">
+          <h2 className="font-display text-[clamp(2.2rem,3.5vw,3.2rem)] font-medium text-bege leading-[1.15] tracking-[-0.02em] mb-5">
             O primeiro passo
             <br />
             é decidir <em className="italic font-normal text-roxo-suave">começar.</em>
@@ -91,7 +91,7 @@ export default function Contact() {
           </div>
 
           <a
-            href="https://wa.me/5531900000000"
+            href="https://wa.me/5531926317180"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block mt-10 font-body text-[0.82rem] font-normal uppercase tracking-[0.12em] text-dark-warm bg-bege py-5 px-14 no-underline transition-all duration-350 hover:bg-white hover:-translate-y-[1px] hover:shadow-[0_8px_30px_rgba(0,0,0,0.2)]"

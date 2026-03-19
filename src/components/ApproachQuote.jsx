@@ -9,7 +9,7 @@ export default function ApproachQuote() {
   return (
     <section
       id="abordagem"
-      className="relative py-28 md:py-36 px-6 md:px-10"
+      className="relative py-28 md:py-36 px-6 md:px-16 lg:px-20"
       style={{
         background: 'linear-gradient(135deg, var(--color-surface-warm) 0%, var(--color-surface-blush) 40%, rgba(170,116,160,0.25) 70%, rgba(133,39,54,0.1) 100%)'
       }}
@@ -35,7 +35,7 @@ export default function ApproachQuote() {
           Abordagem
           <span className="w-6 h-[1px] bg-roxo-suave" />
         </div>
-        <p className="font-display text-[clamp(1.4rem,2.5vw,1.9rem)] font-light italic text-dark-warm leading-[1.55] tracking-[-0.01em] mb-8">
+        <p className="font-display text-[clamp(1.4rem,2.5vw,1.9rem)] font-medium italic text-dark-warm leading-[1.55] tracking-[-0.01em] mb-8">
           Você já se perguntou por que certos padrões se repetem na sua vida?
         </p>
         <p className="font-body text-[0.95rem] font-light text-text-secondary leading-[1.85] mb-8 max-w-[55ch] mx-auto">

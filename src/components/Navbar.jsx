@@ -20,8 +20,8 @@ export default function Navbar() {
     <nav
       className={`fixed top-0 left-0 right-0 z-[100] flex justify-between items-center transition-all duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] ${
         scrolled
-          ? 'py-[0.9rem] px-6 md:px-10 bg-[rgba(226,201,158,0.88)] backdrop-blur-[20px] border-b border-rubi/8'
-          : 'py-5 px-6 md:px-10'
+          ? 'py-[0.9rem] px-6 md:px-16 lg:px-20 bg-[rgba(226,201,158,0.88)] backdrop-blur-[20px] border-b border-rubi/8'
+          : 'py-5 px-6 md:px-16 lg:px-20'
       }`}
     >
       <a href="#" className="font-display text-[1.35rem] font-medium text-rubi tracking-[-0.01em] no-underline">

@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Professional website for Flávia Fernanda, a clinical psychologist (Psicologia Analítica / Jungian approach) based in Belo Horizonte, Brazil. The site is a single-page React application in Brazilian Portuguese (pt-BR).
+Professional website for Flávia Gonçalves Moreira, a clinical psychologist (Psicologia Analítica / Jungian approach) based in Belo Horizonte, Brazil. The site is a single-page React application in Brazilian Portuguese (pt-BR).
 
 ## Commands
 
@@ -25,17 +25,18 @@ Professional website for Flávia Fernanda, a clinical psychologist (Psicologia A
 
 The app is a single-page layout composed of sequential section components, all rendered in `App.jsx`:
 
-`Navbar → Hero → StatementStrip → About → ApproachQuote → Services → Projects → FAQ → Contact → Footer`
+`Navbar → Hero → StatementStrip → About → Projects → FAQ → Contact → Footer`
 
-All components live in `src/components/`. There is no routing, state management, or API integration.
+All components live in `src/components/`. There is no routing, state management, or API integration. Some component files exist in `src/components/` but are not currently rendered in `App.jsx` (e.g., `ApproachQuote`, `Services`).
 
 ## Styling
 
 - Tailwind v4 with custom theme tokens defined in `src/index.css` under `@theme`
-- Color palette: warm beige/sand tones (`surface-*`), ruby accents (`rubi`), purple (`lilas`, `roxo-suave`), dark warm browns (`dark-*`)
+- Color palette: warm beige/sand tones (`surface-*`), ruby accents (`rubi`), purple (`lilas`, `roxo-suave`), dark warm browns (`dark-*`), text colors (`text-primary`, `text-secondary`, `text-muted`, `text-light`)
 - Typography: "Cormorant Garamond" (display/headings) and "DM Sans" (body), loaded via Google Fonts in `index.html`
 - A subtle noise texture overlay is applied via `body::after`
-- Custom CSS animations: `marquee` (statement strip), `breathe` (hero), `fadeSlideUp`
+- Custom CSS animations: `marquee` (statement strip), `breathe` (hero)
+- Utility class `drop-cap` applies a styled first-letter (Cormorant Garamond, ruby color)
 
 ## ESLint Config
 

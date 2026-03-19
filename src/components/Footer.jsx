@@ -7,7 +7,7 @@ export default function Footer() {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.2 }}
       transition={{ duration: 0.7 }}
-      className="bg-[#2E2222] pt-28 md:pt-32 pb-10 px-6 md:px-16 lg:px-20"
+      className="bg-[#2E2222] pt-10 md:pt-12 pb-8 px-6 md:px-16 lg:px-20"
     >
       <div className="max-w-6xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-3">
         <span className="font-display text-[1rem] font-normal text-[rgba(226,201,158,0.35)]">

@@ -2,8 +2,7 @@ import { motion } from 'framer-motion'
 
 export default function StatementStrip() {
   const items = [
-    'Escuta profunda', 'Psicologia Analítica', 'Processo de individuação',
-    'Sonhos e símbolos', 'Presencial e online', 'Crianças, adolescentes e adultos',
+    'Psicologia Analítica', 'Crianças, adolescentes e adultos', 'Presencial e online',
   ]
   // Duplicate for seamless marquee
   const doubled = [...items, ...items]

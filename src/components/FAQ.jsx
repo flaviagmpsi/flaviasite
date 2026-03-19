@@ -12,24 +12,16 @@ const faqs = [
     a: 'A psicoterapia é para qualquer pessoa que sinta o desejo ou a necessidade de se compreender melhor. Não é preciso estar em crise para buscar terapia — momentos de transição, inquietações persistentes, dificuldades nos relacionamentos, ansiedade, luto ou simplesmente a vontade de se conhecer mais profundamente já são motivos legítimos.',
   },
   {
-    q: 'Como funciona a primeira sessão?',
-    a: 'A primeira sessão é um momento de acolhimento e escuta. É quando nos conhecemos, você compartilha o que te trouxe até ali e eu explico como funciona o processo terapêutico. Não existe pressão nem compromisso — é uma conversa para sentirmos se faz sentido caminharmos juntos.',
-  },
-  {
     q: 'O que diferencia a psicologia analítica?',
     a: 'A Psicologia Analítica, de Carl Gustav Jung, se diferencia pelo olhar atento ao mundo simbólico: os sonhos, as imagens internas, os mitos e padrões que se repetem na vida. Buscamos o sentido por trás dos sintomas e a integração de aspectos da personalidade que muitas vezes desconhecemos.',
-  },
-  {
-    q: 'Quanto tempo dura o processo?',
-    a: 'Não existe uma resposta única — cada processo é singular. Algumas questões podem ser trabalhadas em meses; outras pedem um acompanhamento mais longo. O ritmo é construído junto, com transparência e respeito ao seu momento.',
   },
   {
     q: 'Como funcionam as sessões online?',
     a: 'As sessões online acontecem por videochamada em plataforma segura, com a mesma qualidade do atendimento presencial. Você pode estar em qualquer lugar do Brasil ou do exterior — basta um ambiente tranquilo e uma conexão estável.',
   },
   {
-    q: 'Qual o valor da sessão?',
-    a: 'Os valores são conversados no primeiro contato, de forma transparente. Trabalho com a possibilidade de valores sociais para quem precisa, porque acredito que o acesso à saúde mental não deveria ser um privilégio.',
+    q: 'Como funciona o processo inicial?',
+    a: 'A primeira sessão é um momento de acolhimento e escuta. É quando nos conhecemos, você compartilha o que te trouxe até ali e eu explico como funciona o processo terapêutico. Não existe pressão nem compromisso — é uma conversa para sentirmos se faz sentido caminharmos juntos.',
   },
 ]
 

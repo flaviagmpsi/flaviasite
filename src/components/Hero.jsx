@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 
 export default function Hero() {
   return (
-    <section className="min-h-screen relative overflow-hidden bg-gradient-to-br from-surface-base via-surface-light to-surface-blush flex items-center">
+    <section className="min-h-screen relative overflow-hidden bg-gradient-to-br from-surface-warm via-surface-blush to-dark-warm/20 flex items-center">
       <div className="w-full max-w-6xl mx-auto px-6 md:px-16 lg:px-20 pt-28 pb-20 md:pt-32 md:pb-24">
         <div className="flex flex-col lg:flex-row items-center gap-14 lg:gap-20">
           {/* Text content — centered vertically */}
@@ -20,7 +20,7 @@ export default function Hero() {
               initial={{ opacity: 0, y: 24 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.5 }}
-              className="font-display text-[clamp(2.4rem,4.5vw,4rem)] font-medium leading-[1.12] text-dark-warm mb-6 tracking-[-0.025em]"
+              className="font-display text-[clamp(2.4rem,4.5vw,4rem)] font-medium leading-[0.95] text-dark-warm mb-6 tracking-[-0.025em]"
             >
               Um espaço para
               <br />
@@ -56,13 +56,6 @@ export default function Hero() {
                 className="font-body text-[0.82rem] font-normal uppercase tracking-[0.12em] text-bege bg-rubi border-none py-4 px-9 cursor-pointer transition-all duration-400 no-underline inline-block hover:bg-dark-rubi hover:-translate-y-[1px] hover:shadow-[0_8px_30px_rgba(133,39,54,0.25)]"
               >
                 Agendar Sessão
-              </a>
-              <a
-                href="#sobre"
-                className="font-body text-[0.82rem] font-normal text-text-secondary no-underline tracking-[0.05em] transition-colors duration-300 hover:text-rubi group"
-              >
-                Conheça meu trabalho
-                <span className="inline-block ml-1 transition-transform duration-300 group-hover:translate-x-1">→</span>
               </a>
             </motion.div>
           </div>

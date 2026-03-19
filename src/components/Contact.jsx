@@ -6,7 +6,7 @@ const fadeUp = {
 }
 
 const contactItems = [
-  { label: 'WhatsApp', value: '+55 31 9263-1718', href: 'https://wa.me/5531926317180' },
+  { label: 'WhatsApp', value: '+55 31 99263-1718', href: 'https://wa.me/5531992631718' },
   { label: 'E-mail', value: 'flaviagm.psi@gmail.com', href: 'mailto:flaviagm.psi@gmail.com' },
   { label: 'Consultório', value: 'Barroca, Belo Horizonte/MG', href: null },
   { label: 'Atendimento', value: 'Presencial & Online', href: null },
@@ -91,7 +91,7 @@ export default function Contact() {
           </div>
 
           <a
-            href="https://wa.me/5531926317180"
+            href="https://wa.me/5531992631718"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block mt-10 font-body text-[0.82rem] font-normal uppercase tracking-[0.12em] text-dark-warm bg-bege py-5 px-14 no-underline transition-all duration-350 hover:bg-white hover:-translate-y-[1px] hover:shadow-[0_8px_30px_rgba(0,0,0,0.2)]"

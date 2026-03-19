@@ -7,8 +7,8 @@ const fadeUp = {
 
 const contactItems = [
   { label: 'WhatsApp', value: '+55 31 9263-1718', href: 'https://wa.me/5531926317180' },
-  { label: 'E-mail', value: 'contato@flaviagonçalves.com.br', href: 'mailto:contato@flaviagoncalves.com.br' },
-  { label: 'Consultório', value: 'Belo Horizonte, MG', href: null },
+  { label: 'E-mail', value: 'flaviagm.psi@gmail.com', href: 'mailto:flaviagm.psi@gmail.com' },
+  { label: 'Consultório', value: 'Barroca, Belo Horizonte/MG', href: null },
   { label: 'Atendimento', value: 'Presencial & Online', href: null },
 ]
 

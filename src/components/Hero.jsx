@@ -69,26 +69,12 @@ export default function Hero() {
           >
             <div className="absolute inset-0 translate-x-3 translate-y-3 border-2 border-rubi/15 rounded-lg pointer-events-none" />
 
-            <div
-              className="relative w-full aspect-[3/4] rounded-lg overflow-hidden"
-              style={{
-                background: 'linear-gradient(160deg, var(--color-surface-blush) 0%, rgba(170,116,160,0.2) 30%, rgba(133,39,54,0.08) 60%, var(--color-surface-warm) 100%)'
-              }}
-            >
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div
-                  className="absolute w-[180px] h-[180px] rounded-full"
-                  style={{
-                    background: 'radial-gradient(circle, rgba(133,39,54,0.1) 0%, transparent 70%)',
-                    animation: 'breathe 6s ease-in-out infinite'
-                  }}
-                />
-                <span className="font-display text-[0.95rem] italic text-text-muted text-center px-8 opacity-60 relative z-[1]">
-                  Espaço para fotografia
-                  <br />
-                  profissional
-                </span>
-              </div>
+            <div className="relative w-full aspect-[3/4] rounded-lg overflow-hidden">
+              <img
+                src={`${import.meta.env.BASE_URL}foto-flavia.jpeg`}
+                alt="Flávia Gonçalves Moreira — Psicóloga Clínica"
+                className="w-full h-full object-cover object-top"
+              />
             </div>
 
             <div className="absolute -bottom-4 -left-4 bg-surface-base/95 backdrop-blur-sm border border-rubi/10 rounded-lg px-5 py-3 shadow-[0_4px_20px_rgba(0,0,0,0.08)]">

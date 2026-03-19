@@ -4,8 +4,8 @@ export default function StatementStrip() {
   const items = [
     'Psicologia Analítica', 'Crianças, adolescentes e adultos', 'Presencial e online',
   ]
-  // Duplicate for seamless marquee
-  const doubled = [...items, ...items]
+  // Repeat enough times to fill wide screens seamlessly
+  const repeated = [...items, ...items, ...items, ...items, ...items, ...items]
 
   return (
     <motion.div
@@ -16,10 +16,10 @@ export default function StatementStrip() {
       className="bg-rubi py-3 md:py-4 overflow-hidden border-t border-b border-rubi/10"
     >
       <div
-        className="flex items-center gap-14 whitespace-nowrap"
-        style={{ animation: 'marquee 30s linear infinite' }}
+        className="flex items-center gap-10 md:gap-14 whitespace-nowrap"
+        style={{ animation: 'marquee 35s linear infinite', width: 'max-content' }}
       >
-        {doubled.map((item, i) => (
+        {repeated.map((item, i) => (
           <span key={i} className="contents">
             <span className="font-display text-[1.15rem] md:text-[1.25rem] font-normal italic text-[rgba(226,201,158,0.75)] tracking-[0.04em]">
               {item}

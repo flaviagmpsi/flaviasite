@@ -43,8 +43,8 @@ export default function Services() {
   const rest = services.slice(1)
 
   return (
-    <section id="atuacao" className="py-28 md:py-36 px-6 md:px-10 bg-surface-base">
-      <div className="max-w-5xl mx-auto">
+    <section id="atuacao" className="py-28 md:py-36 px-6 md:px-16 lg:px-20 bg-surface-base">
+      <div className="max-w-6xl mx-auto">
         {/* Header */}
         <motion.div
           initial="hidden"
@@ -52,12 +52,12 @@ export default function Services() {
           viewport={{ once: true, threshold: 0.15 }}
           transition={{ duration: 0.7 }}
           variants={fadeUp}
-          className="text-center max-w-[560px] mx-auto mb-16"
+          className="text-center max-w-[560px] mx-auto mb-20"
         >
           <div className="font-body text-[0.68rem] font-medium uppercase tracking-[0.25em] text-roxo-suave mb-6">
             Áreas de atuação
           </div>
-          <h2 className="font-display text-[clamp(2rem,3vw,2.6rem)] font-light text-dark-warm tracking-[-0.02em] mb-4">
+          <h2 className="font-display text-[clamp(2rem,3vw,2.6rem)] font-medium text-dark-warm tracking-[-0.02em] mb-4">
             Cada demanda é acolhida com
             <br />
             <em className="italic font-normal text-rubi">cuidado</em> e profundidade
@@ -79,7 +79,7 @@ export default function Services() {
               {featured.num}
             </div>
             <div>
-              <h3 className="font-display text-[1.5rem] lg:text-[1.7rem] font-medium text-dark-warm mb-3 tracking-[-0.01em]">
+              <h3 className="font-display text-[1.5rem] lg:text-[1.7rem] font-semibold text-dark-warm mb-3 tracking-[-0.01em]">
                 {featured.title}
               </h3>
               <p className="font-body text-[0.92rem] text-text-secondary font-light leading-[1.8] max-w-[60ch]">
@@ -108,7 +108,7 @@ export default function Services() {
               <div className="font-display text-[2.2rem] font-light leading-none mb-5 transition-colors duration-400 text-[rgba(133,39,54,0.15)] group-hover:text-rubi">
                 {s.num}
               </div>
-              <h3 className="font-display text-[1.3rem] font-medium text-dark-warm mb-3 tracking-[-0.01em]">
+              <h3 className="font-display text-[1.3rem] font-semibold text-dark-warm mb-3 tracking-[-0.01em]">
                 {s.title}
               </h3>
               <p className="font-body text-[0.88rem] text-text-secondary font-light leading-[1.75] max-w-[45ch]">

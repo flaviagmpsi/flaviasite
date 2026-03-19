@@ -1,3 +1,5 @@
+import { motion } from 'framer-motion'
+
 export default function StatementStrip() {
   const items = [
     'Escuta profunda', 'Psicologia Analítica', 'Processo de individuação',
@@ -7,17 +9,15 @@ export default function StatementStrip() {
   const doubled = [...items, ...items]
 
   return (
-    <div className="bg-rubi py-8 md:py-10 overflow-hidden relative">
-      {/* Diagonal overlay lines */}
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      viewport={{ once: true, amount: 0.2 }}
+      transition={{ duration: 0.7 }}
+      className="bg-rubi py-3 md:py-4 overflow-hidden border-t border-b border-rubi/10"
+    >
       <div
-        className="absolute inset-0 pointer-events-none opacity-[0.07]"
-        style={{
-          backgroundImage: 'repeating-linear-gradient(45deg, transparent, transparent 20px, rgba(226,201,158,1) 20px, rgba(226,201,158,1) 21px)',
-        }}
-      />
-
-      <div
-        className="flex items-center gap-14 whitespace-nowrap relative z-[1]"
+        className="flex items-center gap-14 whitespace-nowrap"
         style={{ animation: 'marquee 30s linear infinite' }}
       >
         {doubled.map((item, i) => (
@@ -29,6 +29,6 @@ export default function StatementStrip() {
           </span>
         ))}
       </div>
-    </div>
+    </motion.div>
   )
 }

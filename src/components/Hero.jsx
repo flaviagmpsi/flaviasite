@@ -3,8 +3,8 @@ import { motion } from 'framer-motion'
 export default function Hero() {
   return (
     <section className="min-h-screen relative overflow-hidden bg-gradient-to-br from-surface-base via-surface-light to-surface-blush flex items-center">
-      <div className="w-full max-w-5xl mx-auto px-6 md:px-10 pt-24 pb-16">
-        <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
+      <div className="w-full max-w-6xl mx-auto px-6 md:px-16 lg:px-20 pt-28 pb-20 md:pt-32 md:pb-24">
+        <div className="flex flex-col lg:flex-row items-center gap-14 lg:gap-20">
           {/* Text content — centered vertically */}
           <div className="relative z-[2] w-full lg:w-1/2 text-center lg:text-left">
             <motion.p
@@ -20,7 +20,7 @@ export default function Hero() {
               initial={{ opacity: 0, y: 24 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.5 }}
-              className="font-display text-[clamp(2.4rem,4.5vw,4rem)] font-light leading-[1.12] text-dark-warm mb-6 tracking-[-0.025em]"
+              className="font-display text-[clamp(2.4rem,4.5vw,4rem)] font-medium leading-[1.12] text-dark-warm mb-6 tracking-[-0.025em]"
             >
               Um espaço para
               <br />

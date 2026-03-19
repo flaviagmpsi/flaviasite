@@ -17,7 +17,7 @@ export default function About() {
   return (
     <section
       id="sobre"
-      className="py-32 md:py-40 px-6 md:px-10 bg-surface-light"
+      className="py-32 md:py-40 px-6 md:px-16 lg:px-20 bg-surface-light"
     >
       <div className="max-w-3xl mx-auto text-center">
         {/* Section label */}
@@ -34,7 +34,7 @@ export default function About() {
             Sobre mim
             <span className="w-6 h-[1px] bg-roxo-suave" />
           </div>
-          <h2 className="font-display text-[clamp(2rem,3vw,2.8rem)] font-light leading-[1.2] text-dark-warm tracking-[-0.02em]">
+          <h2 className="font-display text-[clamp(2rem,3vw,2.8rem)] font-medium leading-[1.2] text-dark-warm tracking-[-0.02em]">
             Acredito na potência do{' '}
             <em className="italic font-normal text-rubi">encontro</em>{' '}
             terapêutico.
@@ -49,7 +49,7 @@ export default function About() {
           viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 0.8, delay: 0.15 }}
           variants={fadeUp}
-          className="drop-cap font-body text-[0.95rem] font-light text-text-secondary leading-[1.9] text-left mb-10"
+          className="drop-cap font-body text-[0.95rem] font-light text-text-secondary leading-[1.9] text-left mb-10 max-w-[65ch] mx-auto"
         >
           Minha trajetória na psicologia começou com uma inquietação genuína: compreender o que nos move para além daquilo que conseguimos explicar racionalmente. Foi essa curiosidade pelo que existe nas camadas mais profundas da experiência humana que me levou à Psicologia Analítica de Carl Gustav Jung — uma abordagem que olha para os sonhos, os símbolos e as narrativas que cada pessoa carrega dentro de si.
         </motion.p>
@@ -81,7 +81,7 @@ export default function About() {
           viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 0.8, delay: 0.25 }}
           variants={fadeUp}
-          className="font-body text-[0.95rem] font-light text-text-secondary leading-[1.9] text-left mb-8"
+          className="font-body text-[0.95rem] font-light text-text-secondary leading-[1.9] text-left mb-8 max-w-[65ch] mx-auto"
         >
           Me formei em Psicologia pela Pontifícia Universidade Católica de Minas Gerais (PUC Minas), onde pude construir uma base sólida tanto teórica quanto prática. Ainda durante a graduação, mergulhei na clínica: atendimentos supervisionados, grupos de estudo, práticas deliberadas e projetos em instituições. Cada experiência reforçou a certeza de que a escuta terapêutica é um trabalho artesanal — não existe fórmula pronta.
         </motion.p>
@@ -93,7 +93,7 @@ export default function About() {
           viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 0.8, delay: 0.3 }}
           variants={fadeUp}
-          className="font-body text-[0.95rem] font-light text-text-secondary leading-[1.9] text-left"
+          className="font-body text-[0.95rem] font-light text-text-secondary leading-[1.9] text-left max-w-[65ch] mx-auto"
         >
           Hoje, atendo presencialmente em Belo Horizonte e de forma online para todo o Brasil e exterior. Trabalho com crianças, adolescentes e adultos, sempre com o compromisso de oferecer um espaço onde a escuta acontece de verdade — com profundidade, respeito e inteireza.
         </motion.p>

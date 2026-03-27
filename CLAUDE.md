@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Professional website for Flávia Gonçalves Moreira, a clinical psychologist (Psicologia Analítica / Jungian approach) based in Belo Horizonte, Brazil. The site is a single-page React application in Brazilian Portuguese (pt-BR).
+Professional website for Flávia Gonçalves Moreira, a clinical psychologist (Psicologia Analítica / Jungian approach) based in Belo Horizonte, Brazil. The site is a single-page React application in Brazilian Portuguese (pt-BR). All user-facing text must be written in pt-BR.
 
 ## Commands
 

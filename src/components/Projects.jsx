@@ -93,6 +93,9 @@ export default function Projects() {
               <p className="font-body text-[0.9rem] text-text-secondary font-light leading-[1.85] mb-6 max-w-[65ch]">
                 O Nonai é um coletivo que integra o saber psi ao contexto do mundo. Nossa identidade é pautada pelo compromisso com uma Psicologia participativa, onde o aprofundamento teórico caminha lado a lado com a consciência social. Valorizamos a educação continuada e a coletividade, acreditando que o conhecimento se fortalece na troca. Aqui, o processo de escuta é guiado pela ética de que o individual e o coletivo coexistem e se moldam mutuamente.
               </p>
+              <p className="font-body text-[0.9rem] text-text-secondary font-light leading-[1.85] mb-6 max-w-[65ch]">
+                No coletivo, atuo como comunicadora e palestrante, ministrando grupos de estudos e palestras que levam o saber psicológico para além do consultório. Minha prática também se volta à prospecção de projetos em diversas áreas da sociedade, buscando estabelecer diálogos constantes entre a realidade social e o conhecimento da Psicologia.
+              </p>
               <a
                 href="https://www.instagram.com/coletivo_nonai"
                 target="_blank"

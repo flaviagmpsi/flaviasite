@@ -90,9 +90,22 @@ export default function Projects() {
               <h3 className="font-display text-[1.4rem] font-semibold text-dark-warm mb-5 tracking-[-0.01em]">
                 Coletivo Nonai
               </h3>
-              <p className="font-body text-[0.9rem] text-text-secondary font-light leading-[1.85] max-w-[65ch]">
+              <p className="font-body text-[0.9rem] text-text-secondary font-light leading-[1.85] mb-6 max-w-[65ch]">
                 O Nonai é um coletivo que integra o saber psi ao contexto do mundo. Nossa identidade é pautada pelo compromisso com uma Psicologia participativa, onde o aprofundamento teórico caminha lado a lado com a consciência social. Valorizamos a educação continuada e a coletividade, acreditando que o conhecimento se fortalece na troca. Aqui, o processo de escuta é guiado pela ética de que o individual e o coletivo coexistem e se moldam mutuamente.
               </p>
+              <a
+                href="https://www.instagram.com/coletivo_nonai"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 font-body text-[0.82rem] font-normal text-roxo-suave hover:text-rubi transition-colors duration-300"
+              >
+                <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                </svg>
+                @coletivo_nonai
+              </a>
             </div>
           </motion.div>
         </div>

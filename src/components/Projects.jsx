@@ -57,10 +57,10 @@ export default function Projects() {
                 Associação Allos
               </h3>
               <p className="font-body text-[0.9rem] text-text-secondary font-light leading-[1.85] mb-5 max-w-[65ch]">
-                A Allos é uma clínica-escola de psicologia em Belo Horizonte que forma psicólogos em início de carreira por meio de prática clínica supervisionada, ao mesmo tempo em que oferece terapia acessível à população.
+                A Allos é uma ONG que atua com projetos sociais e inovação na área da educação, com foco especial na Psicologia. Através de sua clínica-escola, a instituição propõe o desenvolvimento supervisionado de graduandos e profissionais por meio da prática deliberada, formação teórica e atuação em projetos sociais — pilares que considero essenciais para uma trajetória de excelência na nossa área.
               </p>
               <p className="font-body text-[0.9rem] text-text-secondary font-light leading-[1.85] max-w-[65ch]">
-                Minha história com a Allos começou ainda na graduação e se tornou parte fundamental de quem sou como profissional. Ali, participei de atendimentos clínicos supervisionados, grupos de prática deliberada, círculos de estudo e projetos em instituições. A Allos é onde minha identidade clínica se formou.
+                Há mais de dois anos, componho a equipe de gestão de comunidade da Associação, onde trabalho promovendo o desenvolvimento participativo dos associados em um ambiente de pertencimento e iniciativa para o aprendizado conjunto. Além disso, atuo na avaliação e monitoria do desenvolvimento de estagiários, acompanhando de perto a prática clínica e os grupos de estudos teóricos.
               </p>
             </div>
           </motion.div>
@@ -90,11 +90,8 @@ export default function Projects() {
               <h3 className="font-display text-[1.4rem] font-semibold text-dark-warm mb-5 tracking-[-0.01em]">
                 Coletivo Nonai
               </h3>
-              <p className="font-body text-[0.9rem] text-text-secondary font-light leading-[1.85] mb-5 max-w-[65ch]">
-                O Coletivo Nonai nasce da convicção de que a psicologia não pode se isolar da realidade social. É um grupo dedicado a aprofundar os aspectos teóricos da psicologia sem perder a interface com o mundo — pensando o sujeito dentro de um contexto político, histórico e coletivo.
-              </p>
               <p className="font-body text-[0.9rem] text-text-secondary font-light leading-[1.85] max-w-[65ch]">
-                Participar do Nonai é exercitar uma psicologia que se pergunta: a quem servimos? Que mundo estamos ajudando a construir? É um espaço de reflexão comprometida, onde teoria e responsabilidade social caminham juntas.
+                O Nonai é um coletivo que integra o saber psi ao contexto do mundo. Nossa identidade é pautada pelo compromisso com uma Psicologia participativa, onde o aprofundamento teórico caminha lado a lado com a consciência social. Valorizamos a educação continuada e a coletividade, acreditando que o conhecimento se fortalece na troca. Aqui, o processo de escuta é guiado pela ética de que o individual e o coletivo coexistem e se moldam mutuamente.
               </p>
             </div>
           </motion.div>

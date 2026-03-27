@@ -22,11 +22,9 @@ export default function Hero() {
               transition={{ duration: 0.8, delay: 0.5 }}
               className="font-display text-[clamp(2.4rem,4.5vw,4rem)] font-medium leading-[0.95] text-dark-warm mb-6 tracking-[-0.025em]"
             >
-              Um espaço para
+              O que em você
               <br />
-              <em className="italic font-normal text-rubi">ouvir o que em você</em>
-              <br />
-              ainda busca expressão.
+              <em className="italic font-normal text-rubi">busca expressão?</em>
             </motion.h1>
 
             <motion.div
@@ -42,7 +40,7 @@ export default function Hero() {
               transition={{ duration: 0.8, delay: 0.7 }}
               className="font-body text-[1rem] font-light text-text-secondary max-w-[44ch] leading-[1.8] mb-10 mx-auto lg:mx-0"
             >
-              Psicoterapia individual com abordagem em Psicologia Analítica (junguiana). Cada pessoa carrega dentro de si uma história que pede para ser ouvida — e merece um espaço de escuta profunda e genuína.
+              Orientada pela Psicologia Analítica, realizo atendimentos clínicos presenciais em BH e online. Minhas frentes de atuação e pesquisa fora do consultório alimentam continuamente a escuta clínica, enriquecendo o olhar para a complexidade que cada encontro humano revela.
             </motion.p>
 
             <motion.div

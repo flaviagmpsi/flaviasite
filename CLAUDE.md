@@ -12,6 +12,7 @@ Professional website for Flávia Gonçalves Moreira, a clinical psychologist (Ps
 - **Build:** `npm run build` (outputs to `dist/`)
 - **Lint:** `npm run lint` (ESLint with react-hooks and react-refresh plugins)
 - **Preview prod build:** `npm run preview`
+- **No test suite** — there are no tests configured in this project
 
 ## Tech Stack
 
@@ -37,6 +38,12 @@ All components live in `src/components/`. There is no routing, state management,
 - A subtle noise texture overlay is applied via `body::after`
 - Custom CSS animations: `marquee` (statement strip), `breathe` (hero)
 - Utility class `drop-cap` applies a styled first-letter (Cormorant Garamond, ruby color)
+
+## Deployment
+
+- Deployed to **GitHub Pages** via GitHub Actions (`.github/workflows/deploy.yml`)
+- Triggers on push to `main`
+- Vite `base` is set to `'/flaviasite/'` in `vite.config.js` — all asset paths are relative to this base; keep this in mind when referencing public assets or images
 
 ## ESLint Config
 
